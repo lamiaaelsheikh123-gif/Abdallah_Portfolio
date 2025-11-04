@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdallah Samir - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Code Background -->
+    <div class="code-background" id="codeBackground"></div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+      <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+      <div class="modal-content">
+        <span class="close-modal" id="closeModal">&times;</span>
+        <h2 id="modalTitle">Project Details</h2>
+        <p id="modalDescription">This is a description of the project.</p>
+        <div class="modal-buttons">
+          <a href="#" id="modalLink" class="modal-btn primary" target="_blank"
+            >View Project</a
+          >
+          <button class="modal-btn secondary" id="closeModalBtn">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <div class="logo"><i class="fas fa-code"></i>Abdallah Samir ✨</div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#tools">Tools</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#awards">Awards</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a
+              class="cv-btn"
+              href="https://drive.google.com/file/d/1zz_zCEa9ROIzCNXf0W_dqJfhal3KgkM9/view?usp=drivesdk"
+              target="_blank"
+              >Download CV</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="name">Abdallah Samir</h1>
+        <h2 class="track">AI & Communications Engineering Student</h2>
+        <p class="tagline">
+          Building intelligent solutions that think, learn, and evolve 🧠✨
+        </p>
+      </div>
+      <div class="hero-image">
+        <img src="631b0c50-b8b5-42be-b195-30ede511e558.jpg" />
+      </div>
+      <div class="floating-icons">
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js"></i>
+        <i class="fab fa-python"></i>
+        <i class="fab fa-java"></i>
+        <i class="fas fa-robot"></i>
+        <i class="fas fa-database"></i>
+        <i class="fas fa-code"></i>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <div class="card">
+        <p>
+          Being too young or having limited resources is not a barrier to your
+          progress and success. Just do what you love and do the best you can.
+          It's truly what I believe is the key to excellence. I am a student at
+          the faculty of engineering, Department of Communications and Computer
+          Engineering, interested in technology, especially communication and
+          programming. No doubt, I have faced many challenges; however, it not
+          only depends on how genius you are; it also mainly depends on your
+          essence and personality traits. Having gained different experiences,
+          of course, I allow myself to open my mind to other interests that vary
+          from playing football to swimming and science.
+        </p>
+        <p>
+          I am waiting for that day to create my own company specializing in the
+          world of technology to create a new world full of creative and
+          wonderful innovations. Igniting My passion is to never give up, and I
+          will fly high among these scientists and leaders who succeeded in
+          reserving their bright stars.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>Communication and Computer Engineering</h3>
+        <p class="muted">Mansoura University | 09/2023 – CURRENT</p>
+        <p>
+          Faculty of Engineering, Department of Communications and Computer
+          Engineering
+        </p>
+      </div>
+      <div class="card">
+        <h3>Preparatory year at the College of Engineering</h3>
+        <p class="muted">Tanta University | 09/2022 – 09/2023</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>Python</span>
+        <span>C</span>
+        <span>Netwok</span>
+        <span>HTML</span>
+        <span>JavaScript</span>
+        <span>CSS</span>
+        <span>MySQL</span>
+        <span>Scikit-learn</span>
+        <span>Pandas</span>
+        <span>Matplotlib</span>
+        <span>Arduino</span>
+        <span>Data Science</span>
+        <span>Graphic Design</span>
+        <span>Video Editing</span>
+        <span>Leadership</span>
+        <span>Communication</span>
+      </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="section">
+      <h2>Tools & Technologies</h2>
+      <div class="tools">
+        <div class="tool-item">
+          <i class="fab fa-python"></i>
+          <span>Python</span>
+        </div>
+        <div class="tool-item">
+          <i class="fab fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="tool-item">
+          <i class="fab fa-html5"></i>
+          <span>HTML5</span>
+        </div>
+        <div class="tool-item">
+          <i class="fab fa-css3-alt"></i>
+          <span>CSS3</span>
+        </div>
+        <div class="tool-item">
+          <i class="fas fa-database"></i>
+          <span>MySQL</span>
+        </div>
+        <div class="tool-item">
+          <i class="fab fa-microsoft"></i>
+          <span>C++</span>
+        </div>
+
+        <div class="tool-item">
+          <i class="fas fa-microchip"></i>
+          <span>Arduino</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <h2>Work Experience</h2>
+      <div class="card">
+        <h3>Programmer Freelancer</h3>
+        <p class="muted">09/08/2024 – CURRENT</p>
+        <p>Front-end development with HTML, CSS and JavaScript</p>
+      </div>
+      <div class="card">
+        <h3>Graphic Designer Freelancer</h3>
+        <p class="muted">2020 – CURRENT | Elmahalla Elkobra, Egypt</p>
+      </div>
+      <div class="card">
+        <h3>Mathematics Teacher (Part Time)</h3>
+        <p class="muted">01/10/2024 – CURRENT</p>
+      </div>
+      <div class="card">
+        <h3>Group Sales Manager</h3>
+        <p class="muted">
+          06/2023 – 12/2023 | Nour Sweets, Elmahalla Elkobra, Egypt
+        </p>
+      </div>
+      <div class="card">
+        <h3>Computer Maintenance Technician</h3>
+        <p class="muted">2017 – 2020 | Future Tech, Elmahalla Elkobra, Egypt</p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Green House Monitoring System</h3>
+          <p>
+            Designed an Arduino-based device capable of determining temperature
+            and humidity of agricultural soil to deduce suitable crops for
+            cultivation.
+          </p>
+          <a
+            class="view-project"
+            href="https://drive.google.com/drive/folders/1Ke6asYuKY1BrS7sA4E5fpCIgVWggPb3l"
+            target="_blank"
+          >
+            View Project
+          </a>
+        </div>
+        <div class="project">
+          <h3>Car Animation</h3>
+          <p>
+            Interactive car animation using Java for computer graphics,
+            demonstrating object-oriented programming and animation principles.
+          </p>
+          <a
+            class="view-project"
+            href="https://drive.google.com/drive/folders/171F-696tDQ08Tk3a7d8fKtq27n1vREDL"
+            target="_blank"
+          >
+            View Project
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="section">
+      <h2>Honors & Awards</h2>
+      <div class="card">
+        <h3>Influential Interviewer and HR Award</h3>
+        <p class="muted">CAT Reloaded | 25/01/2025</p>
+      </div>
+      <div class="card">
+        <h3>First Place - Electronics 2 Project Competition</h3>
+        <p class="muted">
+          Faculty of Engineering, Mansoura University | 14/12/2024
+        </p>
+      </div>
+      <div class="card">
+        <h3>First Place - Computer Graphics Projects Competition</h3>
+        <p class="muted">
+          Faculty of Engineering, Mansoura University | 14/05/2024
+        </p>
+      </div>
+      <div class="card">
+        <h3>Top Member - Circle of Media in CAT Reloaded</h3>
+        <p class="muted">March 2024</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact">
+      <h2>Contact</h2>
+      <p>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:abdallahsamir1@gmail.com">abdallahsamir1@gmail.com</a>
+      </p>
+      <p>
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+20115437042">+20 115 437 7042</a>
+      </p>
+      <p>
+        <i class="fa-solid fa-location-dot"></i>
+        Elmahalla Elkobra, Gharbia, Egypt
+      </p>
+      <p>
+        <i class="fa-brands fa-linkedin"></i>
+        <a
+          href="https://www.linkedin.com/in/abdallah-samir-022b8a271"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </p>
+      <p>
+        <i class="fa-brands fa-google-drive"></i>
+        <a
+          href="https://drive.google.com/drive/folders/1ovksDB534O19tgmh0qng_stklt4gtSiC"
+          target="_blank"
+          >Google Drive</a
+        >
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
